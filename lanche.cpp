@@ -9,7 +9,7 @@ int main(void) {
     for (int i = 0; i < sizeReceitas; i++) cin >> receitas[i];
     
     int plates = 0;
-    for (int seq, i = 0, j = 0; j < sizeReceitas && i < sizeSeq; i++) {
+    for (int seq, i = 0, j = 0; i < sizeSeq; i++) {
         cin >> seq;
 
         j += receitas[j] == seq ? 1 : 0;
